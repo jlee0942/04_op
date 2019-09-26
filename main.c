@@ -5,13 +5,18 @@
 
 int main(int argc, char *argv[]) {
 
-	int x=3;
-	int cond1, cond2;
-	
-	cond1=2<x&&x<5;
-	cond2=x>1||x<4&&x>3;
-	
-	printf("cond1=%d, cond2=%d", cond1, cond2);
+	int x;
+	int y;
 
+		
+	printf("input two integers :");
+	scanf("%d %d", &x, &y);
+	
+	printf("+result is %i\n", (x+y));
+	printf("-result is %i\n", (x-y));
+	printf("*result is %i\n",(x*y));
+	printf("/result is %i\n",(x/y));
+	printf("%%result is %i\n",(x%y));
+	
 	return 0;
 }
